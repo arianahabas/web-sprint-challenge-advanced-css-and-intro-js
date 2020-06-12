@@ -53,7 +53,7 @@ Follow these steps to set up your project:
 - [x] Create a forked copy of this project.
 - [x] Add your Team Lead as collaborator on Github.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 ### Task 2a:  Minimum Viable Product - Responsive Design
 
@@ -74,7 +74,7 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
 * [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
 * [ ] Add responsive breakpoints to your code by using media queries
-* [ ] Add CSS animations
+* [x] Add CSS animations
 
 ## Resources
 
@@ -88,6 +88,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master

@@ -236,20 +236,18 @@ function getArtistByIndex(array, index) {
 
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array with names of artists who lived in the 20th century (1900-2000) */
 
-
-function get20s(arr){
-  const artistTwenty = [];
+function get20s(arr){  
+    let artistTwenty= []
+    
   for(let i=0; i<arr.length; i++){
-    if(arr[i].years < 2000){
+    let test= arr[i].years.split("");
+    if(test.includes = "1900-2000"){
       artistTwenty.push(arr[i].name);
-    }else if (arr[i].years > 1900){
-      artistTwenty.push(arr[i].name)
-    }
   }
   return artistTwenty
   }
-  console.log(get20s(artists));
-
+}
+console.log(get20s(artists));
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
@@ -351,4 +349,4 @@ function randomize(/* Code here */){
   }
 
 
- /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+ /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)*/

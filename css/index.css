@@ -136,7 +136,9 @@ button:hover{
     width:100%;
 }
 
-
+img:hover{
+    border:3px solid red;
+}
 /* media queries */
 
 @media(max-width:500px){
