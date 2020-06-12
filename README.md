@@ -22,11 +22,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+1. How would you describe acessibility on the web to someone new to programming?
+
+Acessibility is:
+    - the ability for your code to display correctly/fluidly on different screen ratios 
+    - your code accounts for people who may have disabilities such as color blindness or can not see.
+
+2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    - add media queries for different screen ratios (500px, 800px etc)
+    - ensure any images have an 'alt= " " ' added 
+    - add semantics to your html so a screenreader can easily identify the content
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    A variable stores information that can be referenced later on in your code.
+
 4. What is the purpose of using functions in code?
-5. What is JSON data?
+
+    Storing different formulas/equations for later use so you can keep your code DRY.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
