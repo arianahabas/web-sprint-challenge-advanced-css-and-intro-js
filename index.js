@@ -236,19 +236,30 @@ function getArtistByIndex(array, index) {
 
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array with names of artists who lived in the 20th century (1900-2000) */
 
-function get20s(arr){  
-    let artistTwenty= []
-    
-  for(let i=0; i<arr.length; i++){
-    let test= arr[i].years.split("");
-    if(test.includes = "1900-2000"){
-      artistTwenty.push(arr[i].name);
+function get20s(artistArray) {
+  return artistArray.filter((arr) => {
+    let test= arr.years.split("",1);
+if(test.includes = ("1900-2000")){
+  return artistArray;
   }
-  return artistTwenty
-  }
+})
 }
-console.log(get20s(artists));
+console.log(get20s(artists))
 
+
+// function get20s(arr){  
+//     let artistTwenty= []
+    
+//   for(let i=0; i<arr.length; i++){
+//     let test= arr[i].years.split("");
+//     if(test.includes = "1900-2000"){
+//       artistTwenty.push(arr[i].name);
+//   }
+  
+//   }return artistTwenty
+// }
+// console.log(get20s(artists));
+// console.log(artists[5].years.split("   ",200));
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
